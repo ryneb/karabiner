@@ -62,117 +62,101 @@ const rules: KarabinerRules[] = [
     // b = "B"rowse
     b: {
       t: open("https://twitter.com"),
-      // Quarterly "P"lan
-      p: open("https://qrtr.ly/plan"),
-      y: open("https://news.ycombinator.com"),
-      f: open("https://facebook.com"),
-      r: open("https://reddit.com"),
     },
     // o = "Open" applications
+    i: open("notion://www.notion.so/chtbks/Inbox-9eaa3696de7a48fbba6b5f50a2fc7b91?pvs=4"),
+    t: open("notion://www.notion.so/chtbks/2569f932c21046d590b5744057e2d97a?v=fbf7479facd54f2299d14659a35b0f4d&pvs=4"),
     o: {
       1: app("1Password"),
-      g: app("Google Chrome"),
-      c: app("Notion Calendar"),
-      v: app("Visual Studio Code"),
-      d: app("Discord"),
-      s: app("Slack"),
-      e: app("Superhuman"),
-      n: app("Notion"),
-      t: app("Terminal"),
-      // Open todo list managed via *H*ypersonic
-      h: open(
-        "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
-      ),
-      z: app("zoom.us"),
-      // "M"essages
-      m: app("Texts"),
-      f: app("Finder"),
-      r: app("Texts"),
-      // "i"Message
-      i: app("Texts"),
-      p: app("Spotify"),
-      a: app("iA Presenter"),
-      // "W"hatsApp has been replaced by Texts
-      w: open("Texts"),
-      l: open(
-        "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink"
-      ),
+      // a: app("Arc"),
+      // c: app("Notion Calendar"),
+      // v: app("Visual Studio Code"),
+      // s: app("Slack"),
+      // e: app("Spark Desktop"),
+      // n: app("Notion"),
+      // i: app("iTerm"),
+
+      // i: open("notion://www.notion.so/chtbks/Inbox-9eaa3696de7a48fbba6b5f50a2fc7b91?pvs=4"),
+      // z: app("zoom.us"),
+      // m: app("Messages"),
+      // f: app("Finder"),
+      // y: app("Spotify"),
     },
 
-    // w = "Window" via rectangle.app
-    w: {
-      semicolon: {
-        description: "Window: Hide",
-        to: [
-          {
-            key_code: "h",
-            modifiers: ["right_command"],
-          },
-        ],
-      },
-      y: rectangle("previous-display"),
-      o: rectangle("next-display"),
-      k: rectangle("top-half"),
-      j: rectangle("bottom-half"),
-      h: rectangle("left-half"),
-      l: rectangle("right-half"),
-      f: rectangle("maximize"),
-      u: {
-        description: "Window: Previous Tab",
-        to: [
-          {
-            key_code: "tab",
-            modifiers: ["right_control", "right_shift"],
-          },
-        ],
-      },
-      i: {
-        description: "Window: Next Tab",
-        to: [
-          {
-            key_code: "tab",
-            modifiers: ["right_control"],
-          },
-        ],
-      },
-      n: {
-        description: "Window: Next Window",
-        to: [
-          {
-            key_code: "grave_accent_and_tilde",
-            modifiers: ["right_command"],
-          },
-        ],
-      },
-      b: {
-        description: "Window: Back",
-        to: [
-          {
-            key_code: "open_bracket",
-            modifiers: ["right_command"],
-          },
-        ],
-      },
-      // Note: No literal connection. Both f and n are already taken.
-      m: {
-        description: "Window: Forward",
-        to: [
-          {
-            key_code: "close_bracket",
-            modifiers: ["right_command"],
-          },
-        ],
-      },
-      d: {
-        description: "Window: Next display",
-        to: [
-          {
-            key_code: "right_arrow",
-            modifiers: ["right_control", "right_option", "right_command"],
-          },
-        ],
-      },
-    },
+    // // w = "Window" via rectangle.app
+    // w: {
+    //   semicolon: {
+    //     description: "Window: Hide",
+    //     to: [
+    //       {
+    //         key_code: "h",
+    //         modifiers: ["right_command"],
+    //       },
+    //     ],
+    //   },
+    //   y: rectangle("previous-display"),
+    //   o: rectangle("next-display"),
+    //   k: rectangle("top-half"),
+    //   j: rectangle("bottom-half"),
+    //   h: rectangle("left-half"),
+    //   l: rectangle("right-half"),
+    //   f: rectangle("maximize"),
+    //   u: {
+    //     description: "Window: Previous Tab",
+    //     to: [
+    //       {
+    //         key_code: "tab",
+    //         modifiers: ["right_control", "right_shift"],
+    //       },
+    //     ],
+    //   },
+    //   i: {
+    //     description: "Window: Next Tab",
+    //     to: [
+    //       {
+    //         key_code: "tab",
+    //         modifiers: ["right_control"],
+    //       },
+    //     ],
+    //   },
+    //   n: {
+    //     description: "Window: Next Window",
+    //     to: [
+    //       {
+    //         key_code: "grave_accent_and_tilde",
+    //         modifiers: ["right_command"],
+    //       },
+    //     ],
+    //   },
+    //   b: {
+    //     description: "Window: Back",
+    //     to: [
+    //       {
+    //         key_code: "open_bracket",
+    //         modifiers: ["right_command"],
+    //       },
+    //     ],
+    //   },
+    //   // Note: No literal connection. Both f and n are already taken.
+    //   m: {
+    //     description: "Window: Forward",
+    //     to: [
+    //       {
+    //         key_code: "close_bracket",
+    //         modifiers: ["right_command"],
+    //       },
+    //     ],
+    //   },
+    //   d: {
+    //     description: "Window: Next display",
+    //     to: [
+    //       {
+    //         key_code: "right_arrow",
+    //         modifiers: ["right_control", "right_option", "right_command"],
+    //       },
+    //     ],
+    //   },
+    // },
 
     // s = "System"
     s: {
@@ -236,20 +220,20 @@ const rules: KarabinerRules[] = [
         ],
       },
       // Turn on Elgato KeyLight
-      y: {
-        to: [
-          {
-            shell_command: `curl -H 'Content-Type: application/json' --request PUT --data '{ "numberOfLights": 1, "lights": [ { "on": 1, "brightness": 100, "temperature": 215 } ] }' http://192.168.8.84:9123/elgato/lights`,
-          },
-        ],
-      },
-      h: {
-        to: [
-          {
-            shell_command: `curl -H 'Content-Type: application/json' --request PUT --data '{ "numberOfLights": 1, "lights": [ { "on": 0, "brightness": 100, "temperature": 215 } ] }' http://192.168.8.84:9123/elgato/lights`,
-          },
-        ],
-      },
+      // y: {
+      //   to: [
+      //     {
+      //       shell_command: `curl -H 'Content-Type: application/json' --request PUT --data '{ "numberOfLights": 1, "lights": [ { "on": 1, "brightness": 100, "temperature": 215 } ] }' http://192.168.8.84:9123/elgato/lights`,
+      //     },
+      //   ],
+      // },
+      // h: {
+      //   to: [
+      //     {
+      //       shell_command: `curl -H 'Content-Type: application/json' --request PUT --data '{ "numberOfLights": 1, "lights": [ { "on": 0, "brightness": 100, "temperature": 215 } ] }' http://192.168.8.84:9123/elgato/lights`,
+      //     },
+      //   ],
+      // },
       // "D"o not disturb toggle
       d: open(`raycast://extensions/yakitrak/do-not-disturb/toggle`),
     },
@@ -303,10 +287,10 @@ const rules: KarabinerRules[] = [
 
     // r = "Raycast"
     r: {
-      n: open("raycast://script-commands/dismiss-notifications"),
-      l: open(
-        "raycast://extensions/stellate/mxstbr-commands/create-mxs-is-shortlink"
-      ),
+      // n: open("raycast://script-commands/dismiss-notifications"),
+      // l: open(
+      //   "raycast://extensions/stellate/mxstbr-commands/create-mxs-is-shortlink"
+      // ),
       e: open(
         "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols"
       ),
@@ -314,16 +298,27 @@ const rules: KarabinerRules[] = [
       p: open("raycast://extensions/raycast/raycast/confetti"),
       a: open("raycast://extensions/raycast/raycast-ai/ai-chat"),
       s: open("raycast://extensions/peduarte/silent-mention/index"),
-      h: open(
-        "raycast://extensions/raycast/clipboard-history/clipboard-history"
-      ),
-      1: open(
-        "raycast://extensions/VladCuciureanu/toothpick/connect-favorite-device-1"
-      ),
-      2: open(
-        "raycast://extensions/VladCuciureanu/toothpick/connect-favorite-device-2"
-      ),
+      o: open("raycast://extensions/thomas/elgato-key-light/toggle"),
+      g: open("raycast://extensions/mblode/google-search/index"),
+      d: open("raycast://extensions/raycast/google-workspace/search-google-drive-files"),
+      q: open("raycast://extensions/raycast/raycast/search-quicklinks"),
+      t: open("raycast://extensions/ThatNerd/timers/manageTimers"),
+      n: open("raycast://extensions/MisakiCoca/link-cleaner/main"),
+      l: open("raycast://extensions/koinzhang/open-path/open-path")
+      // h: open(
+      //   "raycast://extensions/raycast/clipboard-history/clipboard-history"
+      // ),
+      // 1: open(
+      //   "raycast://extensions/VladCuciureanu/toothpick/connect-favorite-device-1"
+      // ),
+      // 2: open(
+      //   "raycast://extensions/VladCuciureanu/toothpick/connect-favorite-device-2"
+      // ),
     },
+
+    // l: {
+      
+    // }
   }),
 ];
 
