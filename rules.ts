@@ -66,6 +66,7 @@ const rules: KarabinerRules[] = [
     // o = "Open" applications
     i: open("notion://www.notion.so/chtbks/Inbox-9eaa3696de7a48fbba6b5f50a2fc7b91?pvs=4"),
     t: open("notion://www.notion.so/chtbks/2569f932c21046d590b5744057e2d97a?v=fbf7479facd54f2299d14659a35b0f4d&pvs=4"),
+    a: open("raycast://extensions/guga4ka/authy/search-otp"),
     o: {
       1: app("1Password"),
       // a: app("Arc"),
@@ -297,7 +298,7 @@ const rules: KarabinerRules[] = [
       c: open("raycast://extensions/raycast/system/open-camera"),
       p: open("raycast://extensions/raycast/raycast/confetti"),
       a: open("raycast://extensions/raycast/raycast-ai/ai-chat"),
-      s: open("raycast://extensions/peduarte/silent-mention/index"),
+      // s: open("raycast://extensions/peduarte/silent-mention/index"),
       o: open("raycast://extensions/thomas/elgato-key-light/toggle"),
       g: open("raycast://extensions/mblode/google-search/index"),
       d: open("raycast://extensions/raycast/google-workspace/search-google-drive-files"),
