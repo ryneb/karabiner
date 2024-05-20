@@ -56,9 +56,9 @@ const rules: KarabinerRules[] = [
     ],
   },
   ...createHyperSubLayers({
-    spacebar: open(
-      "raycast://extensions/stellate/mxstbr-commands/create-notion-todo"
-    ),
+    // spacebar: open(
+    //   "raycast://extensions/stellate/mxstbr-commands/create-notion-todo"
+    // ),
     // b = "B"rowse
     b: {
       t: open("https://twitter.com"),
@@ -69,6 +69,7 @@ const rules: KarabinerRules[] = [
     a: open("raycast://extensions/guga4ka/authy/search-otp"),
     o: {
       1: app("1Password"),
+      w: open("notion://www.notion.so/ryneb/Lift-log-6dfbd28f46ed47b1995adfca8bb8ea7f?pvs=4"),
       // a: app("Arc"),
       // c: app("Notion Calendar"),
       // v: app("Visual Studio Code"),
@@ -305,7 +306,9 @@ const rules: KarabinerRules[] = [
       q: open("raycast://extensions/raycast/raycast/search-quicklinks"),
       t: open("raycast://extensions/ThatNerd/timers/manageTimers"),
       n: open("raycast://extensions/MisakiCoca/link-cleaner/main"),
-      l: open("raycast://extensions/koinzhang/open-path/open-path")
+      l: open("raycast://extensions/koinzhang/open-path/open-path"),
+      w: open("raycast://extensions/koinzhang/wi-fi/toggle-wi-fi"),
+      f: open("raycast://extensions/josephschmitt/gif-search/search"),
       // h: open(
       //   "raycast://extensions/raycast/clipboard-history/clipboard-history"
       // ),
