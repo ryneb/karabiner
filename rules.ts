@@ -65,7 +65,10 @@ const rules: KarabinerRules[] = [
     },
     // o = "Open" applications
     i: open("notion://www.notion.so/chtbks/Inbox-9eaa3696de7a48fbba6b5f50a2fc7b91?pvs=4"),
-    t: open("notion://www.notion.so/chtbks/2569f932c21046d590b5744057e2d97a?v=fbf7479facd54f2299d14659a35b0f4d&pvs=4"),
+    t: open("notion://www.notion.so/chtbks/15b2745e43d08014a690e84e23e8ac9d?v=15b2745e43d080f183db000cbae56f3b&pvs=4"),
+    p: open("notion://www.notion.so/chtbks/Conversion-CX-Project-Board-1532745e43d08094b46ff72c84f8dce1?pvs=4"),
+    h: open("notion://www.notion.so/chtbks/Conversion-CX-Team-1002745e43d0800ab8f2f6e7bcb68500?pvs=4"),
+    d: open("notion://www.notion.so/chtbks/Conversion-CX-Product-Discovery-1532745e43d08043a524c9c02dde634d?pvs=4"),
     a: open("raycast://extensions/guga4ka/authy/search-otp"),
     o: {
       1: app("1Password"),
@@ -83,6 +86,14 @@ const rules: KarabinerRules[] = [
       // m: app("Messages"),
       // f: app("Finder"),
       // y: app("Spotify"),
+    },
+    // // f = "Finder" / "Folder"
+    f: {
+      d: open("raycast://extensions/timothy_boye/open-folders/downloads"),
+      s: open("raycast://extensions/timothy_boye/open-folders/desktop"),
+      c: open("raycast://extensions/timothy_boye/open-folders/documents"),
+      g: open("raycast://extensions/timothy_boye/open-folders/projects"), //opens github folder
+
     },
 
     // // w = "Window" via rectangle.app
@@ -309,6 +320,7 @@ const rules: KarabinerRules[] = [
       l: open("raycast://extensions/koinzhang/open-path/open-path"),
       w: open("raycast://extensions/koinzhang/wi-fi/toggle-wi-fi"),
       f: open("raycast://extensions/josephschmitt/gif-search/search"),
+      y: open("raycast://extensions/mattisssa/spotify-player/search"),
       // h: open(
       //   "raycast://extensions/raycast/clipboard-history/clipboard-history"
       // ),
