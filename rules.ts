@@ -70,6 +70,7 @@ const rules: KarabinerRules[] = [
     h: open("notion://www.notion.so/chtbks/Conversion-CX-Team-1002745e43d0800ab8f2f6e7bcb68500?pvs=4"),
     d: open("notion://www.notion.so/chtbks/Conversion-CX-Product-Discovery-1532745e43d08043a524c9c02dde634d?pvs=4"),
     w: open("notion://www.notion.so/chtbks/6e4dc9a01ace451cad708c289e339fa1?v=f6ff26efcbc54a22b7855c62af68b97a&pvs=4"),
+    m: open("notion://www.notion.so/chtbks/CBPT-Agendas-1532745e43d080ca941bd377c7d6a624?pvs=4"),
     a: open("raycast://extensions/guga4ka/authy/search-otp"),
     o: {
       1: app("1Password"),
