@@ -55,6 +55,11 @@
                                         "value": 0
                                     },
                                     {
+                                        "name": "hyper_sublayer_g",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
                                         "name": "hyper_sublayer_h",
                                         "type": "variable_if",
                                         "value": 0
@@ -187,6 +192,11 @@
                                         "value": 0
                                     },
                                     {
+                                        "name": "hyper_sublayer_g",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
                                         "name": "hyper_sublayer_h",
                                         "type": "variable_if",
                                         "value": 0
@@ -279,6 +289,11 @@
                                     },
                                     {
                                         "name": "hyper_sublayer_p",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_g",
                                         "type": "variable_if",
                                         "value": 0
                                     },
@@ -379,6 +394,11 @@
                                         "value": 0
                                     },
                                     {
+                                        "name": "hyper_sublayer_g",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
                                         "name": "hyper_sublayer_h",
                                         "type": "variable_if",
                                         "value": 0
@@ -445,6 +465,107 @@
                         ]
                     },
                     {
+                        "description": "Hyper Key + g",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_b",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_i",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_t",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_p",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_g",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_h",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_d",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_w",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_m",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_a",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_o",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_f",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_s",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_v",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_c",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_r",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    }
+                                ],
+                                "description": "Open notion://www.notion.so/chtbks/Product-Gameplan-27d2745e43d080b7833eced8be373ee4",
+                                "from": {
+                                    "key_code": "g",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [{ "shell_command": "open notion://www.notion.so/chtbks/Product-Gameplan-27d2745e43d080b7833eced8be373ee4" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Hyper Key + h",
                         "manipulators": [
                             {
@@ -471,6 +592,11 @@
                                     },
                                     {
                                         "name": "hyper_sublayer_p",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_g",
                                         "type": "variable_if",
                                         "value": 0
                                     },
@@ -571,6 +697,11 @@
                                         "value": 0
                                     },
                                     {
+                                        "name": "hyper_sublayer_g",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
                                         "name": "hyper_sublayer_h",
                                         "type": "variable_if",
                                         "value": 0
@@ -663,6 +794,11 @@
                                     },
                                     {
                                         "name": "hyper_sublayer_p",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_g",
                                         "type": "variable_if",
                                         "value": 0
                                     },
@@ -763,6 +899,11 @@
                                         "value": 0
                                     },
                                     {
+                                        "name": "hyper_sublayer_g",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
                                         "name": "hyper_sublayer_h",
                                         "type": "variable_if",
                                         "value": 0
@@ -859,6 +1000,11 @@
                                         "value": 0
                                     },
                                     {
+                                        "name": "hyper_sublayer_g",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
                                         "name": "hyper_sublayer_h",
                                         "type": "variable_if",
                                         "value": 0
@@ -946,6 +1092,11 @@
                                     },
                                     {
                                         "name": "hyper_sublayer_p",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_g",
                                         "type": "variable_if",
                                         "value": 0
                                     },
@@ -1084,6 +1235,11 @@
                                     },
                                     {
                                         "name": "hyper_sublayer_p",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_g",
                                         "type": "variable_if",
                                         "value": 0
                                     },
@@ -1254,6 +1410,11 @@
                                     },
                                     {
                                         "name": "hyper_sublayer_p",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_g",
                                         "type": "variable_if",
                                         "value": 0
                                     },
@@ -1506,6 +1667,11 @@
                                     },
                                     {
                                         "name": "hyper_sublayer_p",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_g",
                                         "type": "variable_if",
                                         "value": 0
                                     },
@@ -1766,6 +1932,11 @@
                                         "value": 0
                                     },
                                     {
+                                        "name": "hyper_sublayer_g",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
                                         "name": "hyper_sublayer_h",
                                         "type": "variable_if",
                                         "value": 0
@@ -1913,6 +2084,11 @@
                                     },
                                     {
                                         "name": "hyper_sublayer_p",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    },
+                                    {
+                                        "name": "hyper_sublayer_g",
                                         "type": "variable_if",
                                         "value": 0
                                     },

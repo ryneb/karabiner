@@ -67,6 +67,7 @@ const rules: KarabinerRules[] = [
     i: open("notion://www.notion.so/chtbks/Inbox-9eaa3696de7a48fbba6b5f50a2fc7b91?pvs=4"),
     t: open("notion://www.notion.so/chtbks/15b2745e43d08014a690e84e23e8ac9d?v=15b2745e43d080f183db000cbae56f3b&pvs=4"),
     p: open("notion://www.notion.so/chtbks/Conversion-CX-Project-Board-1532745e43d08094b46ff72c84f8dce1?pvs=4"),
+    g: open("notion://www.notion.so/chtbks/Product-Gameplan-27d2745e43d080b7833eced8be373ee4"),
     h: open("notion://www.notion.so/chtbks/Conversion-CX-Team-1002745e43d0800ab8f2f6e7bcb68500?pvs=4"),
     d: open("notion://www.notion.so/chtbks/Conversion-CX-Product-Discovery-1532745e43d08043a524c9c02dde634d?pvs=4"),
     w: open("notion://www.notion.so/chtbks/6e4dc9a01ace451cad708c289e339fa1?v=f6ff26efcbc54a22b7855c62af68b97a&pvs=4"),
