@@ -60,6 +60,7 @@ const rules: KarabinerRules[] = [
     //   "raycast://extensions/stellate/mxstbr-commands/create-notion-todo"
     // ),
     // b = "B"rowse
+    1: app("1Password"),
     b: {
       t: open("https://twitter.com"),
     },
@@ -71,11 +72,15 @@ const rules: KarabinerRules[] = [
     h: open("notion://www.notion.so/chtbks/Conversion-CX-Team-1002745e43d0800ab8f2f6e7bcb68500?pvs=4"),
     d: open("notion://www.notion.so/chtbks/Conversion-CX-Product-Discovery-1532745e43d08043a524c9c02dde634d?pvs=4"),
     // w: open("notion://www.notion.so/chtbks/6e4dc9a01ace451cad708c289e339fa1?v=f6ff26efcbc54a22b7855c62af68b97a&pvs=4"),
+    l: app("ChatGPT"),
     m: open("notion://www.notion.so/chtbks/CBPT-Agendas-1532745e43d080ca941bd377c7d6a624?pvs=4"),
     w: open("notion://www.notion.so/belliston/_Inbox-283146af297881958146e294c7e5b73e?"),
-    a: open("raycast://extensions/guga4ka/authy/search-otp"),
+    // a: {
+    //   o: app("ChatGPT"),
+    //   l: app("Claude")
+
+    // },
     o: {
-      1: app("1Password"),
       w: open("notion://www.notion.so/ryneb/Lift-log-6dfbd28f46ed47b1995adfca8bb8ea7f?pvs=4"),
       // a: app("Arc"),
       // c: app("Notion Calendar"),
