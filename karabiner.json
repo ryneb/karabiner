@@ -474,12 +474,12 @@
                                         "value": 0
                                     }
                                 ],
-                                "description": "Open notion://www.notion.so/chtbks/15b2745e43d08014a690e84e23e8ac9d?v=15b2745e43d080f183db000cbae56f3b&pvs=4",
+                                "description": "Open notion://www.notion.so/chtbks/15b2745e43d08014a690e84e23e8ac9d?v=1b32745e43d080dd99d4000ce9e7e500&source=copy_link",
                                 "from": {
                                     "key_code": "t",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "shell_command": "open notion://www.notion.so/chtbks/15b2745e43d08014a690e84e23e8ac9d?v=15b2745e43d080f183db000cbae56f3b&pvs=4" }],
+                                "to": [{ "shell_command": "open notion://www.notion.so/chtbks/15b2745e43d08014a690e84e23e8ac9d?v=1b32745e43d080dd99d4000ce9e7e500&source=copy_link" }],
                                 "type": "basic"
                             }
                         ]

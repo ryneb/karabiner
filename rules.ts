@@ -66,7 +66,7 @@ const rules: KarabinerRules[] = [
     },
     // o = "Open" applications
     i: open("notion://www.notion.so/chtbks/Inbox-9eaa3696de7a48fbba6b5f50a2fc7b91?pvs=4"),
-    t: open("notion://www.notion.so/chtbks/15b2745e43d08014a690e84e23e8ac9d?v=15b2745e43d080f183db000cbae56f3b&pvs=4"),
+    t: open("notion://www.notion.so/chtbks/15b2745e43d08014a690e84e23e8ac9d?v=1b32745e43d080dd99d4000ce9e7e500&source=copy_link"),
     p: open("notion://www.notion.so/chtbks/Conversion-CX-Project-Board-1532745e43d08094b46ff72c84f8dce1?pvs=4"),
     g: open("notion://www.notion.so/chtbks/Product-Gameplan-27d2745e43d080b7833eced8be373ee4"),
     h: open("notion://www.notion.so/chtbks/Conversion-CX-Team-1002745e43d0800ab8f2f6e7bcb68500?pvs=4"),
