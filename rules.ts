@@ -61,9 +61,7 @@ const rules: KarabinerRules[] = [
     // ),
     // b = "B"rowse
     1: app("1Password"),
-    b: {
-      t: open("https://twitter.com"),
-    },
+    b: app("Grok Bot"),
     // o = "Open" applications
     i: open("notion://www.notion.so/chtbks/Inbox-9eaa3696de7a48fbba6b5f50a2fc7b91?pvs=4"),
     t: open("notion://www.notion.so/chtbks/15b2745e43d08014a690e84e23e8ac9d?v=1b32745e43d080dd99d4000ce9e7e500&source=copy_link"),
